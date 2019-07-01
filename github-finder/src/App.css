@@ -249,7 +249,7 @@ img {
 .bg-primary,
 .badge-primary,
 .alert-primary {
-  background: var(--primary-color);
+  background: #24292e;
   color: #fff;
 }
 
