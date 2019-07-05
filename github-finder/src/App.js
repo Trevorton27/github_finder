@@ -33,6 +33,7 @@ class App extends Component {
     {process.env.REACT_APP_GITHUB_CLIENT_SECRET}`);
     
     this.setState({ users: response.data.items, loading: false });
+    console.log({ users: response.data.items});
     
   }
  //get single github user
@@ -76,6 +77,7 @@ class App extends Component {
     <Router>
     <div className="App">
       <Navbar  />
+     
       <div className="container">
         <Alert alert={this.state.alert} />
         <Switch>
@@ -93,7 +95,7 @@ class App extends Component {
                   />
             </Fragment>
           )} />
-          <Route exact path='/about' component={About} />
+           <Route exact path='/about' component={About} />
           <Route exact path ='/user/:login' render={props=> (
             <UserProfile 
             {...props } 

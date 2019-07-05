@@ -27,6 +27,7 @@ export class UserProfile extends Component {
             blog,
             company,
             login,
+            username,
             html_url,
             followers,
             following,
@@ -43,11 +44,10 @@ export class UserProfile extends Component {
             <Fragment>
                 <Link to='/' className="btn btn-dark">
                     Returneth To Yon Search Page
-                   
                 </Link>
                 <br />
                 <br />
-                Hireable: { '' }
+                Hireable: { ' ' }
                 {hireable ? ( 
                 <i className="fas fa-check text-success" />
                 ) : (
