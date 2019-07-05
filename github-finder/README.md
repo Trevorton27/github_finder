@@ -1,3 +1,4 @@
+This sentence should only be visible in the refactored branch. :-)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
