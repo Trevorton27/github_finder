@@ -1,2 +1,3 @@
 [build]
-publish="build" 
+base="github-finder"
+publish="github-finder/build" 
